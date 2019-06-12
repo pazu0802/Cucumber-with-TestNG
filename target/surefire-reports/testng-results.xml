@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="7510" started-at="2019-06-12T18:15:26Z" finished-at="2019-06-12T18:15:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@337d0578]" name="feature" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FREE CRM Test" duration-ms="7510" started-at="2019-06-12T18:15:26Z" finished-at="2019-06-12T18:15:33Z">
+      <class name="MyRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@337d0578]" name="setUpClass" is-config="true" duration-ms="222" started-at="2019-06-12T18:15:26Z" finished-at="2019-06-12T18:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@337d0578]" name="feature" duration-ms="7175" started-at="2019-06-12T18:15:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-12T18:15:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free CRM Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyRunner.TestRunner@337d0578]" name="tearDown" is-config="true" duration-ms="13" started-at="2019-06-12T18:15:33Z" finished-at="2019-06-12T18:15:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- FREE CRM Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
