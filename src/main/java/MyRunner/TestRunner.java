@@ -10,8 +10,8 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-		features="src/main/java/Features",
-		glue= {"StepDefinitions"},
+		features="src/main/java/Features",//path of feature file 
+		glue= {"StepDefinitions"},//path of step-definition file
 		tags= {"~@Ignore"},
 		format= {
 				"pretty",
@@ -43,7 +43,4 @@ public class TestRunner {
 	public void tearDown() throws Exception {
 		testNGCucumberRunner.finish();
 	}
-	
-	
-	
 }
